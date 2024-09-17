@@ -31,4 +31,4 @@ print('6% sales tax: $', round((total_coffee + total_muffin + total_bagel + tota
 print('---------')
 print('Total: $', total_coffee + total_muffin + total_bagel + total_cake + round((total_coffee + total_muffin + total_bagel + total_cake) * .06 ,2))
 print("***************************************")
-print("***************************************")
+print("Thank you for stopping by can't wait to see you next time!")
