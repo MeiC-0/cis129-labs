@@ -1,4 +1,4 @@
-#num of coffees and muffins bought
+#num of coffees and muffins bought + 2 more items
 #make a price for items
 #add prices and total number of items bought
 #put receipt statements together
