@@ -1,0 +1,29 @@
+#CIS129_Mei Li Chan_Lab5.py  
+#9/29
+#This program calculates the total amount of bottles and what the total payout is depending on the number of bottles.
+
+#Declare the variables
+keep_going ="y"
+#Loop to run program again
+while keep_going == "y":
+    #Code to set value of variables
+    total_bottles = 0
+    today_bottles = 0
+    total_payout = 0
+    counter = 1
+    NBR_OF_DAYS = 7
+    #Add days
+    while counter <= NBR_OF_DAYS:
+        today_bottles = input("Enter number of bottles returned  for day " + str(counter) + ':')
+        total_bottles += int(today_bottles)
+        counter += 1
+    #Calculate Payout
+    PAYOUT_PER_BOTTLE = .10
+    total_payout = PAYOUT_PER_BOTTLE * total_bottles
+    #Collect total payout
+    print("The total number of bottles collected is " + str(total_bottles))
+    print("The total paid out is $ " , format(total_payout,'.2f'))
+    #Another week of data
+    print("Do you want to enter another week’s worth of data?")
+    #Decide if there is another week of data
+    keep_going = input("(Enter y or n): ")
